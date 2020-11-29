@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;600;700&family=Work+Sans&display=swap');
+*{
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ .row{
+   padding: 1rem;
+ }
+
+a{
+  text-decoration: none;
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.rounded{
+  border-radius: 2rem !important;
+  padding: 2rem;
+  overflow: hidden;
+}
+.margin{
+  margin: 0rem 1rem 1rem 1rem;
+}
+.margin.x2{
+  margin: 2rem;
+}
+
+.brand-bg{
+  background-color: #0e6c92;
+  color: white;
+}
+.brown-bg{
+  background-color: #3A2E39;
+  color: white;
+}
+.red-bg{
+  background-color: #F15152;
+  color: white;
+}
+.light-bg{
+  background-color: #F4D8CD;
+  color: #333;
+}
+a.brand-bg{
+  color: white;
+}
+a.brand-b:hover{
+  color: white;
+}
+
+.brand-text{
+  color: #0e6c92;
+}
+.image{
+  opacity: 0;
+  transition: 300ms;
+  width: 100%;
+  height: auto;
+}
+.image[isLoaded = '1']{
+  opacity: 1;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+.header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+.header > .header-logo-div{
+  display: flex;
+  align-items: center;
+}
+.header > .header-logo-div > img{
+  display: inline-block;
+  margin-right: 1rem;
+}
+.header > .header-logo-div > h2{
+  display: inline-block;
+  margin: 0rem !important;
+}
+.header > .header-nav-div{
+  display: flex;
+  position: absolute;
+  right: 1rem;
+  padding: 12px;
+}
+.header > .header-nav-div > a{
+  padding: 12px;
+  color: #666;
+  transition: 500ms;
+}
+.header > .header-nav-div > a:hover{
+  color: #0e6c92;
+}
+.mainslider{
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.swiper-wrapper > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.badge{
+  display: block;
+  width: 100%;
+}
+.badge img{
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+.banner{
+  
+}
+.banner-bg-placeholder{
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+.banner-inner{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 2rem;
+}

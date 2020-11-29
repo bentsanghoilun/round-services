@@ -1,0 +1,151 @@
+@media all and (max-width: 600px){
+
+*{
+  position: relative;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main{
+  margin: auto;
+  padding: 0px;
+}
+h1{
+}
+h3{
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.rounded{
+  border-radius: 1rem !important;
+  padding: 1rem;
+  overflow: hidden;
+}
+.margin{
+  margin: 12px;
+}
+.margin.x2{
+  margin: 24px;
+}
+
+.brand-bg{
+  background-color: #0e6c92;
+  color: white;
+}
+.brown-bg{
+  background-color: #3A2E39;
+  color: white;
+}
+.red-bg{
+  background-color: #F15152;
+  color: white;
+}
+.light-bg{
+  background-color: #F4D8CD;
+  color: #333;
+}
+a.brand-bg{
+  color: white;
+}
+a.brand-b:hover{
+  color: white;
+}
+
+.brand-text{
+  color: #0e6c92;
+}
+.image{
+  opacity: 0;
+  transition: 300ms;
+  width: 100%;
+  height: auto;
+}
+.image[isLoaded = '1']{
+  opacity: 1;
+}
+.header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.header > .header-logo-div{
+  display: flex;
+  align-items: center;
+}
+.header > .header-logo-div > img{
+  display: inline-block;
+  margin-right: 1rem;
+}
+.header > .header-logo-div > h2{
+  display: inline-block;
+  margin: 0rem !important;
+}
+.header > .header-nav-div{
+  display: flex;
+  position: absolute;
+  right: 1rem;
+  padding: 12px;
+}
+.header > .header-nav-div > a{
+  padding: 12px;
+  color: #666;
+  transition: 500ms;
+}
+.header > .header-nav-div > a:hover{
+  color: #0e6c92;
+}
+.mainslider{
+  display: none;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.swiper-wrapper > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.badge{
+  display: block;
+  width: 100%;
+}
+.badge img{
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+.banner{
+  margin-bottom: 1rem;
+}
+.banner-bg-placeholder{
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.banner-inner{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 2rem;
+}
+
+
+  
+}
